@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Mulish', sans-serif;
-  background-color: #dfd1ce;
+  background-color: #cddad8;
 }
 
 
@@ -31,7 +31,7 @@ body {
 
 .nav__toggle svg {
   width: 1.5rem;
-  fill: #2C5F2D;
+  fill: #919f89;
 }
 
 .nav__toggle .close {
@@ -72,13 +72,13 @@ body {
 
 .nav__menu a {
   text-decoration: none;
-  color: #2C5F2D;
+  color: #919f89;
   font-size: 1.2rem;
 }
 
 .nav__menu svg {
   width: 1.5rem;
-  fill: #2C5F2D;
+  fill: #919f89;
 }
 
 #nav__checkbox:checked ~ ul.nav__menu li {
@@ -96,12 +96,12 @@ body {
 .name {
     font-family: 'Prompt', sans-serif; 
     font-size: 33px;
-    color: #2C5F2D;
+    color: #919f89;
 }
 
 .title {
     font-family: 'Mulish', sans-serif;
-    color: #783937FF;
+    color: #DB7093;
 }
 
 
@@ -128,7 +128,7 @@ body {
   justify-content: space-between;
   
   bottom: 0;
-  border: 3px solid #2C5F2D;
+  border: 3px solid #919f89;
   padding: 2rem;
 }
 
@@ -183,13 +183,13 @@ body {
 
 #titre {
     font-family: 'Philosopher', sans-serif;
-    color: #783937FF;
+    color: #DB7093;
     padding: 27px;
 }
 
 #para {
     font-family: 'Mulish', sans-serif;
-    color: #2C5F2D;
+    color: #919f89;
 }
 
 #head-title {
@@ -214,7 +214,7 @@ body {
   position: absolute;
   width: 15%;
   height: 110%;
-  background-color: #58190e;
+  background-color: #DB7093;
   box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
 }
 
@@ -258,19 +258,19 @@ body {
   content: " ";
   border: 8px solid #9a8385;
   border-radius: 500%;
-  background: #2C5F2D;
+  background: #919f89;
   height: 20px;
   width: 20px;
   transition: all 500ms ease-in-out;
 }
 
 .rb-container ul.rb li.rb-item:hover::before {
-  border-color: #58190e;
+  border-color: #DB7093;
   transition: all 1000ms ease-in-out;
 }
 
 ul.rb li.rb-item .timestamp {
-  color: #2C5F2D;
+  color: #919f89;
   position: relative;
   width: 300px;
   font-size: 12px;
@@ -280,7 +280,7 @@ ul.rb li.rb-item .timestamp {
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
-    color: #58190e;
+    color: #DB7093;
     line-height: 17px;
 }
 
@@ -342,7 +342,7 @@ ul.rb li.rb-item .timestamp {
       right: -8px;
       left: 82px;
       background: #ffffff;
-      border: 2px solid #2C5F2D;
+      border: 2px solid #919f89;
       border-radius: 16px;
       z-index: 1;
     }
@@ -357,9 +357,9 @@ ul.rb li.rb-item .timestamp {
       top: calc(50% - 1px);
       right: 8px;
       left: 100px;
-      background: #2C5F2D;
+      background: #919f89;
       z-index: 1;
-      border-color: transparent #2C5F2D transparent transparent;
+      border-color: transparent #919f89 transparent transparent;
     }
     
 
@@ -371,7 +371,7 @@ ul.rb li.rb-item .timestamp {
       text-align: center;
       font-size: 14px;
       font-weight: bold;
-      color: #2C5F2D;
+      color: #919f89;
       text-transform: uppercase;
       letter-spacing: 1px;
       z-index: 1;
@@ -389,11 +389,11 @@ ul.rb li.rb-item .timestamp {
       padding: 9px 0;
       top: calc(50% - 20px);
       background: #9a8385;
-      border: 2px solid #2C5F2D;
+      border: 2px solid #919f89;
       border-radius: 40px;
       text-align: center;
       font-size: 18px;
-      color: #2C5F2D;
+      color: #919f89;
       z-index: 1;
       right: auto;
       left: 146px;
@@ -414,7 +414,7 @@ ul.rb li.rb-item .timestamp {
         margin: 0 0 10px 0;
         font-family: 'Philosopher', sans-serif;
         font-size: 37px;
-        color: #2C5F2D;
+        color: #919f89;
     }
     
     #study {
@@ -570,7 +570,7 @@ html, body {
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     background: #dcb7a3;
-    color: #783937FF;
+    color: #DB7093;
     border-radius: 0 0 6px 6px;
   }
   section#timeline article:nth-child(2n+2) div.inner {
@@ -580,59 +580,59 @@ html, body {
     left: -5px;
   }
   section#timeline article:nth-child(1) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(1) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(2) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(2) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(3) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(3) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(4) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(4) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(5) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(5) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
 
   section#timeline article:nth-child(6) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(6) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(7) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(7) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(8) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(8) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(9) div.inner h2 {
-    background: #783937FF;
+    background: #DB7093;
   }
   section#timeline article:nth-child(9) div.inner h2:after {
-    background: #783937FF;
+    background: #DB7093;
   }
 
 
