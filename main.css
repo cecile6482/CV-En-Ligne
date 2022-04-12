@@ -114,10 +114,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .nav__menu li {
-    display: block;
+    display: flex;
+    row-gap: 20px;
   }
 }
 
