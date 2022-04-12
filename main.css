@@ -101,7 +101,7 @@ body {
 
 .title {
     font-family: 'Mulish', sans-serif;
-    color: #DB7093;
+    color: #993300;
 }
 
 
@@ -183,7 +183,7 @@ body {
 
 #titre {
     font-family: 'Philosopher', sans-serif;
-    color: #DB7093;
+    color: #993300;
     padding: 27px;
 }
 
@@ -214,7 +214,7 @@ body {
   position: absolute;
   width: 15%;
   height: 110%;
-  background-color: #DB7093;
+  background-color: #993300;
   box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
 }
 
@@ -265,7 +265,7 @@ body {
 }
 
 .rb-container ul.rb li.rb-item:hover::before {
-  border-color: #DB7093;
+  border-color: #993300;
   transition: all 1000ms ease-in-out;
 }
 
@@ -280,7 +280,7 @@ ul.rb li.rb-item .timestamp {
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
-    color: #DB7093;
+    color: #993300;
     line-height: 17px;
 }
 
@@ -372,7 +372,6 @@ ul.rb li.rb-item .timestamp {
       font-size: 14px;
       font-weight: bold;
       color: #919f89;
-      text-transform: uppercase;
       letter-spacing: 1px;
       z-index: 1;
       right: auto;
@@ -446,9 +445,17 @@ ul.rb li.rb-item .timestamp {
       .container.right::before {
         left: 8px;
       }
+
+      .container.left::after {
+        left: 98%;
+      }
+    
+      .container.left::before {
+        left: 87%;
+      }
     
       .container.left .date {
-        right: -75px;
+        left: 110%;
       }
       
       .container.right .date {
@@ -456,7 +463,7 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.left .icon {
-        right: 56px;
+        left: 80%;
       }
       
       .container.right .icon {
@@ -570,7 +577,7 @@ html, body {
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     background: #dcb7a3;
-    color: #DB7093;
+    color: #993300;
     border-radius: 0 0 6px 6px;
   }
   section#timeline article:nth-child(2n+2) div.inner {
@@ -580,59 +587,59 @@ html, body {
     left: -5px;
   }
   section#timeline article:nth-child(1) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(1) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(2) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(2) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(3) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(3) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(4) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(4) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(5) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(5) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
 
   section#timeline article:nth-child(6) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(6) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(7) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(7) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(8) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(8) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(9) div.inner h2 {
-    background: #DB7093;
+    background: #993300;
   }
   section#timeline article:nth-child(9) div.inner h2:after {
-    background: #DB7093;
+    background: #993300;
   }
 
 
