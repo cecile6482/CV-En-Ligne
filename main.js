@@ -8,7 +8,7 @@ const options = {
     buttonColorDark: '#2F4F4F',  // default: '#100f2c'
     buttonColorLight: '#FFFAF0', // default: '#fff'
     saveInCookies: false, // default: true,
-    label: '🌓', // default: ''
+    label: '🌙', // default: ''
     autoMatchOsTheme: true // default: true
   }
   
