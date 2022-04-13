@@ -47,16 +47,9 @@ body {
 }
 
 .nav__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem;
 }
 
@@ -110,16 +103,17 @@ body {
     display: none;
   }
   .nav__menu {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .nav__menu li {
     display: flex;
-    row-gap: 20px;
   }
+  .nav__menu a {
+    margin-left: 20px;
+  }
+
 }
 
 
@@ -127,7 +121,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
   bottom: 0;
   border: 3px solid #4c6472;
   padding: 2rem;
@@ -452,7 +445,7 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.left::before {
-        left: 87%;
+        left: 90%;
       }
     
       .container.left .date {
@@ -464,7 +457,7 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.left .icon {
-        left: 80%;
+        left: 85%;
       }
       
       .container.right .icon {
