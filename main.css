@@ -270,7 +270,7 @@ ul.rb li.rb-item .timestamp {
   font-size: 12px;
 }
 
-#skill-list{
+.skill-list{
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
@@ -403,14 +403,14 @@ ul.rb li.rb-item .timestamp {
     }
      
     
-    #school {
+    .school {
         margin: 0 0 10px 0;
         font-family: 'Philosopher', sans-serif;
         font-size: 37px;
         color: #4c6472;
     }
     
-    #study {
+    .study {
         margin: 0;
         font-family: 'Mulish', sans-serif;
         font-size: 19px;
