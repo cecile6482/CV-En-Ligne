@@ -23,7 +23,7 @@ body {
 }
 
 .nav__toggle {
-  position: absolute;
+  position: fixed;
   cursor: pointer;
   margin: 0rem 1rem;
   right: 0;
@@ -48,14 +48,16 @@ body {
 
 .nav__menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 1rem;
+  position: fixed;
 }
 
 .nav__menu li {
   list-style: none;
   display: none;
+  padding: 2px;
 }
 
 .nav__menu li:first-child {
@@ -151,6 +153,7 @@ body {
 .profil { 
     padding-bottom: 2rem;
     margin: 2rem; 
+    margin-top: 35%;
 }
 
 .objectif { 
@@ -191,6 +194,7 @@ body {
     font-size: 42px;
     text-align: center;
     color: #996D6D;
+    padding-top: 30%;
 }
 
 .compiler {
@@ -207,7 +211,7 @@ body {
   left: 5%;
   position: absolute;
   width: 15%;
-  height: 110%;
+  height: 105%;
   background-color: #795d53;
   box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
 }
@@ -488,12 +492,12 @@ html, body {
     font-family: Helvetica, sans-serif;
   }
   
-  section#timeline {
+  div#timeline {
     width: 80%;
     margin: 20px auto;
     position: relative;
   }
-  section#timeline:before {
+  div#timeline:before {
     content: '';
     display: block;
     position: absolute;
@@ -504,23 +508,23 @@ html, body {
     height: 100%;
     background: rgba(216, 169, 13, 0.2);
   }
-  section#timeline article {
+  div#timeline article {
     width: 100%;
     margin: 0 0 20px 0;
     position: relative;
   }
-  section#timeline article:after {
+  div#timeline article:after {
     content: '';
     display: block;
     clear: both;
   }
-  section#timeline article div.inner {
+  div#timeline article div.inner {
     width: 40%;
     float: left;
     margin: 5px 0 0 0;
     border-radius: 6px;
   }
-  section#timeline article div.inner span.date {
+  div#timeline article div.inner span.date {
     display: block;
     width: 60px;
     height: 50px;
@@ -536,17 +540,17 @@ html, body {
     border: 2px solid rgba(255,255,255,0.2);
     
   }
-  section#timeline article div.inner span.date span {
+  div#timeline article div.inner span.date span {
     display: block;
     text-align: center;
   }
   
   
-  section#timeline article div.inner span.date span.month {
+  div#timeline article div.inner span.date span.month {
     font-size: 36px;
   }
   
-  section#timeline article div.inner h2 {
+  div#timeline article div.inner h2 {
     padding: 15px;
     margin: 0;
     color: #dcb7a3;
@@ -557,7 +561,7 @@ html, body {
     border-radius: 6px 6px 0 0;
     position: relative;
   }
-  section#timeline article div.inner h2:after {
+  div#timeline article div.inner h2:after {
     content: '';
     position: absolute;
     top: 20px;
@@ -565,7 +569,7 @@ html, body {
         width: 10px; 
         height: 10px;
   }
-  section#timeline article div.inner p {
+  div#timeline article div.inner p {
     padding: 15px;
     margin: 0;
     font-family: 'Mulish', sans-serif;
@@ -574,65 +578,65 @@ html, body {
     color: #795d53;
     border-radius: 0 0 6px 6px;
   }
-  section#timeline article:nth-child(2n+2) div.inner {
+  div#timeline article:nth-child(2n+2) div.inner {
     float: right;
   }
-  section#timeline article:nth-child(2n+2) div.inner h2:after {
+  div#timeline article:nth-child(2n+2) div.inner h2:after {
     left: -5px;
   }
-  section#timeline article:nth-child(1) div.inner h2 {
+  div#timeline article:nth-child(1) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(1) div.inner h2:after {
+  div#timeline article:nth-child(1) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(2) div.inner h2 {
+  div#timeline article:nth-child(2) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(2) div.inner h2:after {
+  div#timeline article:nth-child(2) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(3) div.inner h2 {
+  div#timeline article:nth-child(3) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(3) div.inner h2:after {
+  div#timeline article:nth-child(3) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(4) div.inner h2 {
+  div#timeline article:nth-child(4) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(4) div.inner h2:after {
+  div#timeline article:nth-child(4) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(5) div.inner h2 {
+  div#timeline article:nth-child(5) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(5) div.inner h2:after {
+  div#timeline article:nth-child(5) div.inner h2:after {
     background: #795d53;
   }
 
-  section#timeline article:nth-child(6) div.inner h2 {
+  div#timeline article:nth-child(6) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(6) div.inner h2:after {
+  div#timeline article:nth-child(6) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(7) div.inner h2 {
+  div#timeline article:nth-child(7) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(7) div.inner h2:after {
+  div#timeline article:nth-child(7) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(8) div.inner h2 {
+  div#timeline article:nth-child(8) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(8) div.inner h2:after {
+  div#timeline article:nth-child(8) div.inner h2:after {
     background: #795d53;
   }
-  section#timeline article:nth-child(9) div.inner h2 {
+  div#timeline article:nth-child(9) div.inner h2 {
     background: #795d53;
   }
-  section#timeline article:nth-child(9) div.inner h2:after {
+  div#timeline article:nth-child(9) div.inner h2:after {
     background: #795d53;
   }
 
