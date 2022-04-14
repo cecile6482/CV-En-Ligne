@@ -175,13 +175,13 @@ body {
 
 
 
-#titre {
+.titre {
     font-family: 'Philosopher', sans-serif;
     color: #795d53;
     padding: 27px;
 }
 
-#para {
+.para {
     font-family: 'Mulish', sans-serif;
     color: #4c6472;
 }
