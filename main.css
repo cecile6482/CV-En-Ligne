@@ -157,6 +157,18 @@ header{
     color: #795d53;
 }
 
+.pdf {
+padding: 10px;
+border: 2px solid #795d53;
+border-radius: 10px;
+width: 90px;
+margin-top: 10px;
+}
+
+.pdflink {
+  text-decoration: none;
+}
+
 .profil { 
     padding-bottom: 2rem;
     margin: 2rem; 
@@ -169,8 +181,8 @@ header{
 }
 
 #mypic {
-    width: 33%;
-    height: 33%;
+    width: 45%;
+    height: 45%;
     border-radius: 50%;
     
 }
