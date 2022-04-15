@@ -210,39 +210,10 @@ margin-top: 10px;
     font-size: 42px;
     text-align: center;
     color: #996D6D;
-    padding-top: 30%;
 }
-
-.compiler {
-  width: 540px;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 10%;
-  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
-}
-
-.leftbox {
-  top: -5%;
-  left: 5%;
-  position: absolute;
-  width: 15%;
-  height: 105%;
-  background-color: #795d53;
-  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
-}
-
 
 .rightbox {
-  padding: 0em 34rem 0em 0em;
-  height: 100%;
-}
-
-.rb-container {
-  width: 50%;
-  margin: auto;
-  display: block;
-  position: relative;
+  padding: 0 90% 0 0;
 }
 
 .rb-container ul.rb {
@@ -255,47 +226,26 @@ margin-top: 10px;
   list-style: none;
   margin: auto;
   margin-left: 10em;
-  min-height: 50px;
-  border-left: 1px dashed #9a8385;
+  border-left: 1px solid #dfb0b4;
   padding: 0 0 50px 30px;
-  position: relative;
 }
 
 .rb-container ul.rb li.rb-item:last-child {
   border-left: 0;
 }
 
-.rb-container ul.rb li.rb-item::before {
-  position: absolute;
-  left: -18px;
-  top: -5px;
-  content: " ";
-  border: 8px solid #9a8385;
-  border-radius: 500%;
-  background: #4c6472;
-  height: 20px;
-  width: 20px;
-  transition: all 500ms ease-in-out;
-}
-
-.rb-container ul.rb li.rb-item:hover::before {
-  border-color: #795d53;
-  transition: all 1000ms ease-in-out;
-}
-
 ul.rb li.rb-item .timestamp {
-  color: #4c6472;
-  position: relative;
+  color: #996D6D;
   width: 300px;
-  font-size: 12px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 10px;
 }
 
 .skill-list{
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
-    font-size: 15px;
-    color: #795d53;
-    line-height: 17px;
+    font-size: 14px;
+    color: #4c6472;
 }
 
 
@@ -323,7 +273,7 @@ ul.rb li.rb-item .timestamp {
       content: '';
       position: absolute;
       width: 2px;
-      background: #006E51;
+      background: #dfb0b4;
       top: 0;
       bottom: 0;
       left: 90px;
@@ -371,7 +321,7 @@ ul.rb li.rb-item .timestamp {
       top: calc(50% - 1px);
       right: 8px;
       left: 100px;
-      background: #4c6472;
+      background: #dfb0b4;
       z-index: 1;
       border-color: transparent #4c6472 transparent transparent;
     }
@@ -389,7 +339,7 @@ ul.rb li.rb-item .timestamp {
       letter-spacing: 1px;
       z-index: 1;
       right: auto;
-      left: 15px;
+      left: 25px;
     }
     
     
@@ -401,12 +351,11 @@ ul.rb li.rb-item .timestamp {
       height: 40px;
       padding: 9px 0;
       top: calc(50% - 20px);
-      background: #9a8385;
-      border: 2px solid #4c6472;
+      border: 2px solid #dfb0b4;
       border-radius: 40px;
       text-align: center;
       font-size: 18px;
-      color: #4c6472;
+      color: #996D6D;
       z-index: 1;
       right: auto;
       left: 146px;
@@ -417,25 +366,23 @@ ul.rb li.rb-item .timestamp {
     .container .content {
       margin-top: 1rem;
       padding: 30px 30px 30px 90px;
-      background: #9a8385;
       position: relative;
-      border-radius: 500px 0 0 500px;
     }
      
     
     .school {
         margin: 0 0 10px 0;
         font-family: 'Philosopher', sans-serif;
-        font-size: 37px;
-        color: #4c6472;
+        font-size: 20px;
+        color: #996D6D;
     }
     
     .study {
         margin: 0;
         font-family: 'Mulish', sans-serif;
-        font-size: 19px;
+        font-size: 14px;
         line-height: 22px;
-        color: #000000;
+        color: #4c6472;
     }
     
     @media (min-width: 767.98px) {
@@ -473,11 +420,11 @@ ul.rb li.rb-item .timestamp {
       }
       
       .container.right .date {
-        left: -75px;
+        left: -95px;
       }
     
       .container.left .icon {
-        left: 85%;
+        left: 81.5%;
       }
       
       .container.right .icon {
@@ -502,12 +449,6 @@ ul.rb li.rb-item .timestamp {
 
 
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
-  }
-  
   div#timeline {
     width: 80%;
     margin: 20px auto;
@@ -518,11 +459,11 @@ html, body {
     display: block;
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 2%;
     margin: 0 0 0 -1px;
     width: 2px;
-    height: 100%;
-    background: rgba(216, 169, 13, 0.2);
+    height: 90%;
+    background: #dfb0b4;
   }
   div#timeline article {
     width: 100%;
@@ -551,11 +492,9 @@ html, body {
     margin: 0 0 0 -32px;
     border-radius: 100%;
     font-size: 20px;
-    background: #dcb7a3;
-    color: #9a8385;
-    border: 2px solid rgba(255,255,255,0.2);
-    
+    color: #996D6D;
   }
+  
   div#timeline article div.inner span.date span {
     display: block;
     text-align: center;
@@ -569,10 +508,9 @@ html, body {
   div#timeline article div.inner h2 {
     padding: 15px;
     margin: 0;
-    color: #dcb7a3;
+    color: #996D6D;
     font-size: 20px;
     font-family: 'Philosopher', sans-serif;
-    text-transform: uppercase;
     letter-spacing: -1px;
     border-radius: 6px 6px 0 0;
     position: relative;
@@ -590,8 +528,7 @@ html, body {
     margin: 0;
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
-    background: #dcb7a3;
-    color: #795d53;
+    color: #4c6472;
     border-radius: 0 0 6px 6px;
   }
   div#timeline article:nth-child(2n+2) div.inner {
@@ -601,56 +538,56 @@ html, body {
     left: -5px;
   }
   div#timeline article:nth-child(1) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(1) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(2) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(2) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(3) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(3) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(4) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(4) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(5) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(5) div.inner h2:after {
     background: #795d53;
   }
 
   div#timeline article:nth-child(6) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(6) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(7) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(7) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(8) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(8) div.inner h2:after {
     background: #795d53;
   }
   div#timeline article:nth-child(9) div.inner h2 {
-    background: #795d53;
+    border: 1px solid #795d53;
   }
   div#timeline article:nth-child(9) div.inner h2:after {
     background: #795d53;
@@ -665,8 +602,15 @@ html, body {
 
   #contact-menu {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    height: 100px;
+    justify-content: space-around;
+    height: 800px;
+  }
+
+  .contact-icon {
+    color: #4c6472;
+    border: 2px solid #dfb0b4;
+    border-radius: 50%;
+    padding: 1rem;
   }
