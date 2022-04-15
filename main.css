@@ -3,10 +3,10 @@
 *::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-display: swap;
   background-color: #d9c1b7;
 }
 
@@ -22,9 +22,8 @@ a.click {
     text-decoration: none;
     color: #795d53;
     opacity:1;
-    font-family: 'work sans', sans serif;
-    font-size: 1.5em;
-    font-weight: 400;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
     transition: 200ms;
   }
   a:hover {
@@ -37,7 +36,7 @@ a.click {
 
   nav {
     background-color: #795d53;
-    height: 65px;
+    height: 60px;
     position: fixed;
     margin-top: 10%;
     z-index: 999;
@@ -51,8 +50,6 @@ a.click {
     top: 25px;
     left: 25px;
     z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
   }
   
   #menuToggle input
@@ -119,7 +116,6 @@ a.click {
     padding: 50px;
     padding-top: 125px;
     background-color: #d9c1b7;
-    -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -226,7 +222,7 @@ margin-top: 10px;
   list-style: none;
   margin: auto;
   margin-left: 10em;
-  border-left: 1px solid #dfb0b4;
+  border-left: 2px solid #dfb0b4;
   padding: 0 0 50px 30px;
 }
 
@@ -256,16 +252,13 @@ ul.rb li.rb-item .timestamp {
 
 
 
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-    }
+
+
     
     .timeline {
       position: relative;
       width: 100%;
-      max-width: 1140px;
+      max-width: 700px;
       margin: 3rem auto;
       padding: 15px 0;
     }
@@ -297,22 +290,6 @@ ul.rb li.rb-item .timestamp {
     .container.right {
         left: 0%;
       }
-    
-    .container::after {
-      content: '';
-      position: absolute;
-      width: 16px;
-      height: 16px;
-      top: calc(50% - 8px);
-      right: -8px;
-      left: 82px;
-      background: #ffffff;
-      border: 2px solid #4c6472;
-      border-radius: 16px;
-      z-index: 1;
-    }
-
-
     
     .container::before {
       content: '';
@@ -405,7 +382,7 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.right::before {
-        left: 8px;
+        left: 1px;
       }
 
       .container.left::after {
@@ -413,7 +390,7 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.left::before {
-        left: 90%;
+        left: 86%;
       }
     
       .container.left .date {
@@ -425,11 +402,11 @@ ul.rb li.rb-item .timestamp {
       }
     
       .container.left .icon {
-        left: 81.5%;
+        left: 75%;
       }
       
       .container.right .icon {
-        left: 56px;
+        left: 50px;
       }
       
       .container.left .content{
