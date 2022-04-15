@@ -236,7 +236,7 @@ margin-top: 10px;
 
 ul.rb li.rb-item .timestamp {
   color: #996D6D;
-  width: 300px;
+  width: 500px;
   font-family: 'Philosopher', sans-serif;
   font-size: 10px;
 }
@@ -246,6 +246,7 @@ ul.rb li.rb-item .timestamp {
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     color: #4c6472;
+    line-height: 30px;
 }
 
 
