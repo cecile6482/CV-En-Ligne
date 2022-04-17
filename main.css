@@ -221,8 +221,7 @@ margin-top: 10px;
 .rb-container ul.rb li.rb-item {
   list-style: none;
   margin: auto;
-  margin-left: 10em;
-  border-left: 2px solid #dfb0b4;
+  margin-left: 2em;
   padding: 0 0 50px 30px;
 }
 
@@ -267,7 +266,7 @@ ul.rb li.rb-item .timestamp {
       content: '';
       position: absolute;
       width: 2px;
-      background: #dfb0b4;
+      background: #4c6472;
       top: 0;
       bottom: 0;
       left: 90px;
@@ -299,7 +298,7 @@ ul.rb li.rb-item .timestamp {
       top: calc(50% - 1px);
       right: 8px;
       left: 100px;
-      background: #dfb0b4;
+      background: #4c6472;
       z-index: 1;
       border-color: transparent #4c6472 transparent transparent;
     }
@@ -329,7 +328,7 @@ ul.rb li.rb-item .timestamp {
       height: 40px;
       padding: 9px 0;
       top: calc(50% - 20px);
-      border: 2px solid #dfb0b4;
+      border: 2px solid #4c6472;
       border-radius: 40px;
       text-align: center;
       font-size: 18px;
@@ -441,7 +440,8 @@ ul.rb li.rb-item .timestamp {
     margin: 0 0 0 -1px;
     width: 2px;
     height: 90%;
-    background: #dfb0b4;
+    background: #4c6472;
+    z-index: -2;
   }
   div#timeline article {
     width: 100%;
@@ -588,7 +588,7 @@ ul.rb li.rb-item .timestamp {
 
   .contact-icon {
     color: #4c6472;
-    border: 2px solid #dfb0b4;
+    border: 2px solid #4c6472;
     border-radius: 50%;
     padding: 1rem;
   }
