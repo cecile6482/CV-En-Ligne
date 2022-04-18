@@ -144,7 +144,7 @@ header{
 }
 
 .name {
-    font-family: 'Prompt', sans-serif; 
+    font-family: 'Mulish', sans-serif; 
     font-size: 33px;
     color: #4c6472;
 }
@@ -537,7 +537,7 @@ div#timeline article:nth-child(9) div.inner h2:after {
 }
 
 .head-title {
-  font-family: 'Prompt', sans-serif;  
+  font-family: 'Philosopher', sans-serif;  
   font-size: 42px;
   text-align: center;
   color: #996D6D;
