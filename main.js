@@ -20,3 +20,5 @@ const options = {
   function phoneNumber() {
     alert("Contactez-moi au 07 53 23 35 22")
 }
+
+

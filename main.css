@@ -181,69 +181,171 @@ margin-top: 10px;
     width: 30%;
     height: 30%;
 }
-    
 
 
 
 
- /*//////////////COMPETENCES////////////////////////////////*/
+
+
+
+/*//////////////EXPERIENCES////////////////////////////////*/
 
 
 
 
-.titre {
-    font-family: 'Philosopher', sans-serif;
-    color: #795d53;
-    padding: 27px;
+
+
+div#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
 }
 
-.para {
-    font-family: 'Mulish', sans-serif;
-    color: #4c6472;
+div#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 90%;
+  background: #4c6472;
+  z-index: -2;
 }
 
-.head-title {
-    font-family: 'Prompt', sans-serif;  
-    font-size: 42px;
-    text-align: center;
-    color: #996D6D;
+div#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
 }
 
-.rightbox {
-  padding: 0 90% 0 0;
+div#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-.rb-container ul.rb {
-  margin: 2.5em 0;
-  padding: 0;
-  display: inline-block;
+div#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
 }
 
-.rb-container ul.rb li.rb-item {
-  list-style: none;
-  margin: auto;
-  margin-left: 2em;
-  padding: 0 0 50px 30px;
-}
-
-.rb-container ul.rb li.rb-item:last-child {
-  border-left: 0;
-}
-
-ul.rb li.rb-item .timestamp {
+div#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 20px;
   color: #996D6D;
-  width: 500px;
-  font-family: 'Philosopher', sans-serif;
-  font-size: 10px;
 }
 
-.skill-list{
-    list-style-type: none;
-    font-family: 'Mulish', sans-serif;
-    font-size: 14px;
-    color: #4c6472;
-    line-height: 30px;
+div#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
 }
+
+
+div#timeline article div.inner span.date span.month {
+  font-size: 36px;
+}
+
+div#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #996D6D;
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+div#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+      width: 10px; 
+      height: 10px;
+}
+div#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  color: #4c6472;
+  border-radius: 0 0 6px 6px;
+}
+div#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+div#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+div#timeline article:nth-child(1) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(1) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(2) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(2) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(3) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(3) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(4) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(4) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(5) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(5) div.inner h2:after {
+  background: #795d53;
+}
+
+div#timeline article:nth-child(6) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(6) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(7) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(7) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(8) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(8) div.inner h2:after {
+  background: #795d53;
+}
+div#timeline article:nth-child(9) div.inner h2 {
+  border: 1px solid #795d53;
+}
+div#timeline article:nth-child(9) div.inner h2:after {
+  background: #795d53;
+}
+
+
 
 
 
@@ -418,159 +520,66 @@ ul.rb li.rb-item .timestamp {
 
 
 
-
-
-/*//////////////EXPERIENCES////////////////////////////////*/
-
+ /*//////////////COMPETENCES////////////////////////////////*/
 
 
 
 
+ .titre {
+  font-family: 'Philosopher', sans-serif;
+  color: #795d53;
+  padding: 27px;
+}
 
-  div#timeline {
-    width: 80%;
-    margin: 20px auto;
-    position: relative;
-  }
-  div#timeline:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 2%;
-    margin: 0 0 0 -1px;
-    width: 2px;
-    height: 90%;
-    background: #4c6472;
-    z-index: -2;
-  }
-  div#timeline article {
-    width: 100%;
-    margin: 0 0 20px 0;
-    position: relative;
-  }
-  div#timeline article:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  div#timeline article div.inner {
-    width: 40%;
-    float: left;
-    margin: 5px 0 0 0;
-    border-radius: 6px;
-  }
-  div#timeline article div.inner span.date {
-    display: block;
-    width: 60px;
-    height: 50px;
-    padding: 5px 0;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin: 0 0 0 -32px;
-    border-radius: 100%;
-    font-size: 20px;
-    color: #996D6D;
-  }
-  
-  div#timeline article div.inner span.date span {
-    display: block;
-    text-align: center;
-  }
-  
-  
-  div#timeline article div.inner span.date span.month {
-    font-size: 36px;
-  }
-  
-  div#timeline article div.inner h2 {
-    padding: 15px;
-    margin: 0;
-    color: #996D6D;
-    font-size: 20px;
-    font-family: 'Philosopher', sans-serif;
-    letter-spacing: -1px;
-    border-radius: 6px 6px 0 0;
-    position: relative;
-  }
-  div#timeline article div.inner h2:after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    right: -5px;
-        width: 10px; 
-        height: 10px;
-  }
-  div#timeline article div.inner p {
-    padding: 15px;
-    margin: 0;
-    font-family: 'Mulish', sans-serif;
-    font-size: 14px;
-    color: #4c6472;
-    border-radius: 0 0 6px 6px;
-  }
-  div#timeline article:nth-child(2n+2) div.inner {
-    float: right;
-  }
-  div#timeline article:nth-child(2n+2) div.inner h2:after {
-    left: -5px;
-  }
-  div#timeline article:nth-child(1) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(1) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(2) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(2) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(3) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(3) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(4) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(4) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(5) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(5) div.inner h2:after {
-    background: #795d53;
-  }
+.para {
+  font-family: 'Mulish', sans-serif;
+  color: #4c6472;
+}
 
-  div#timeline article:nth-child(6) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(6) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(7) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(7) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(8) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(8) div.inner h2:after {
-    background: #795d53;
-  }
-  div#timeline article:nth-child(9) div.inner h2 {
-    border: 1px solid #795d53;
-  }
-  div#timeline article:nth-child(9) div.inner h2:after {
-    background: #795d53;
-  }
+.head-title {
+  font-family: 'Prompt', sans-serif;  
+  font-size: 42px;
+  text-align: center;
+  color: #996D6D;
+}
+
+.rightbox {
+padding: 0 90% 0 0;
+}
+
+.rb-container ul.rb {
+margin: 2.5em 0;
+padding: 0;
+display: inline-block;
+}
+
+.rb-container ul.rb li.rb-item {
+list-style: none;
+margin: auto;
+margin-left: 2em;
+padding: 0 0 50px 30px;
+}
+
+.rb-container ul.rb li.rb-item:last-child {
+border-left: 0;
+}
+
+ul.rb li.rb-item .timestamp {
+color: #996D6D;
+width: 500px;
+font-family: 'Philosopher', sans-serif;
+font-size: 10px;
+}
+
+.skill-list{
+  list-style-type: none;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  color: #4c6472;
+  line-height: 30px;
+}
+
+
 
 
 
